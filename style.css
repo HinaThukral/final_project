@@ -1,0 +1,76 @@
+*{
+    box-sizing:border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+h1{
+    /*color: white;*/
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+#form{
+    text-align: center;
+    padding-top: 2rem;
+    background-color: black;
+    width: 700px;
+    padding-bottom: 2rem;
+   
+}
+#second_div{
+    background-color: black;
+    
+}
+@media screen and (max-width: 800px){
+    form{
+        text-align: left;
+    }
+    #get{
+        margin-left: 0;
+    }
+   
+}
+@media screen and (min-width: 800px){
+     #article_g{
+        margin-right: 5rem;
+    }
+     #get{
+        margin-left: 20rem;
+    }
+}
+@media screen and (min-width: 1200px){
+    article{
+    width: 48%;
+    float: left;
+    margin: 5%;
+}
+    #article_g{
+    width: 30%;
+   }
+   #get{
+       text-align: left;
+        margin-left: 7rem;
+   }
+}
+
+label{
+    color: white;
+        margin-left: 0;
+        font-family: 'Indie Flower', cursive;
+}
+ul li{
+    padding-top: 1rem;
+    text-align: left;
+    color: white;
+    list-style: none;
+     font-family: 'Indie Flower', cursive;
+}
+#submit{
+    width: 150px;
+}
+#get:hover{
+    color: white;
+    background-color: black;
+}
+#submit:hover{
+    color: white;
+    background-color: black;
+}

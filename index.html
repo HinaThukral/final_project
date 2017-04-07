@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Address Book</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+    <article>
+    <h1>Please Enter your Information!</h1>
+    <div id="form">
+        <label>Not To Worry About Name!!We will ask later :P</label><br/>
+    <form id="currentform">
+        <label for="address">Address</label><br/>
+            <input type="text" name="Address" placeholder="Surrey" id="address"  />
+            <hr/>
+         <label for="Contact_no">Contact Number</label><br/>
+            <input type="text" name="contact_no" placeholder="1234567890" id="contact_no" />    
+         <hr/>
+          <label for="Birthday">Birthday</label><br/>
+            <input type="text" name="birthday" placeholder="11sept" id="birthday" />
+            <hr/>
+            <label for="Email">Email</label><br/>
+            <input type="text" name="email" placeholder="hina@gmail.com" id="email" />
+            <hr/>
+            <label for="some_words">Some Words for me</label><br/>
+            <input type="text" name="some_words" placeholder="What about me??.." id="some_words" />
+            <hr/>
+            <input type="button" value="Submit" id="submit" onClick="add()"/>
+            
+          
+            
+            
+            
+        
+    </form>
+    <label id="thankyou"></label>
+    </div>
+    </article>
+    <article id="article_g">
+         <h1>Get Saved Information</h1>
+    <div id="second_div">
+       
+        <form>
+        
+            <ul>
+            <li id="result1"></li>
+            <li id="result2"></li>
+            <li id="result3"></li>
+            <li id="result4"></li>
+            <li id="result5"></li>
+            <li id="result6"></li>
+            </ul>
+            <input type="button" value="Click here to get saved info" id="get" onClick="output()" />
+            </form>
+            
+    </div>
+    </article>
+</body>
+</html>
